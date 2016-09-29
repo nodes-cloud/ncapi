@@ -17,7 +17,7 @@ class NCApiGet
       end
       resp
     else
-      "Something went wrong #{res.code} #{res.body}:"
+      "Something went wrong #{res.code}: #{res.message}"
     end
   end
 end
